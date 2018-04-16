@@ -12,11 +12,14 @@
   "devDependencies": {
     "babel-preset-env": "^1.6.1",
     "grunt": "^1.0.2",
-    "grunt-contrib-jshint": "^1.1.0"
+    "grunt-contrib-jshint": "^1.1.0",
+    "jshint-stylish": "^2.2.1",
+    "load-grunt-tasks": "^3.5.2"
   },
   "dependencies": {
     "grunt-include-replace": "^5.0.0",
     "grunt-spritesmith": "^6.6.0",
-    "grunt-svg-inject": "^1.0.1"
+    "grunt-svg-inject": "^1.0.1",
+    "swiper": "^4.2.2"
   }
 }
