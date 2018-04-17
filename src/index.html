@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>테스트</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.x.x/css/swiper.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css">
+    <!-- <link rel="stylesheet" href="../dist/css/swiper.min.css"> -->
     <style>
         .linkToMoveWrap {
             display: none;
@@ -18,6 +19,28 @@
         .shown {
             display: block;
         }
+        .swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
     </style>
 </head>
 <body>
@@ -59,23 +82,32 @@
                     <p class="bandItroText">BAND is a group organization app that provides fun and easy way to communicate.</p>
                 </div>
                 <div class="bandItroImgWrap">
+                    <!-- Swiper -->
                     <div class="swiper-container">
-                        <!-- <div class="swiper-scrollbar"></div> -->
-                        <div class="swiper-button-prev">이전버튼</div>
-                        <div class="swiper-button-next">다음버튼ㅊㅇ</div>
                         <div class="swiper-wrapper">
-                            <div class="swiper-slide">Slide 1</div>
-                            <div class="swiper-slide">Slide 2</div>
-                            <div class="swiper-slide">Slide 3</div>
-                            <div class="swiper-slide">Slide 4</div>
-                            <div class="swiper-slide">Slide 5</div>
-                            <div class="swiper-slide">Slide 6</div>
-                            <div class="swiper-slide">Slide 7</div>
-                            <div class="swiper-slide">Slide 8</div>
-                            <div class="swiper-slide">Slide 9</div>
-                            <div class="swiper-slide">Slide 10</div>
+                        <div class="swiper-slide">
+                            <img data-src="http://g-grafolio.dv.phinf.net/20180416_221/1523807423722T0YlR_JPEG/%BA%A2%BA%B0.jpg?type=w896_4" class="swiper-lazy">
+                            <div class="swiper-lazy-preloader"></div>
                         </div>
-                        <!-- <div class="swiper-pagination"></div> -->
+                        <div class="swiper-slide">
+                            <img data-src="http://g-grafolio.dv.phinf.net/20180415_165/15237239685281bCrU_JPEG/2.%B4%AB%C4%A1.jpg?type=w896_4" class="swiper-lazy">
+                            <div class="swiper-lazy-preloader"></div>
+                                
+                        </div>
+                        <div class="swiper-slide">
+                            <img data-src="http://g-grafolio.dv.phinf.net/20180413_84/1523624992329n5yml_JPEG/%C0%CE%BB%FD.jpg?type=w896_4" class="swiper-lazy">
+                            <div class="swiper-lazy-preloader"></div>
+                        </div>
+                        <div class="swiper-slide">Slide 4</div>
+                        <div class="swiper-slide">Slide 5</div>
+                        <div class="swiper-slide">Slide 6</div>
+                        <div class="swiper-slide">Slide 7</div>
+                        <div class="swiper-slide">Slide 8</div>
+                        <div class="swiper-slide">Slide 9</div>
+                        <div class="swiper-slide">Slide 10</div>
+                        </div>
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination"></div>
                     </div>
                 </div>
                 <div class="bandItroTxtWrap">
@@ -88,7 +120,7 @@
         
 
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.x.x/js/swiper.js"></script>
-    <script src="../build/app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.min.js"></script>
+    <script src="../dist/app.js"></script>
 </body>
 </html>

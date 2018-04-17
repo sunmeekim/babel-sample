@@ -1,5 +1,13 @@
 // const add = (a,b) => a+b;
 //alert('test')
+// import Swiper from 'swiper';
+var swiper = new Swiper('.swiper-container', {
+    pagination: {
+      el: '.swiper-pagination',
+      preloadImages: false,
+      lazy: true
+    },
+});
 const langSelect = () => {
     const lang = window.navigator.language;
     var el = document.querySelector('.langSelectWrap');
