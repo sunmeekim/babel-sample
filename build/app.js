@@ -26,7 +26,7 @@ var scrollEvent = function scrollEvent() {
         if (window.pageYOffset >= 100) el.classList.add('shown');else el.classList.remove('shown');
     };
     window.addEventListener('scroll', scrollValue, false);
-    document.removeEventListener('scroll', scrollValue, false);
+    // document.removeEventListener('scroll', scrollValue, false);
 };
 langSelect();
 scrollEvent();

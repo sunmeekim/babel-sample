@@ -25,7 +25,7 @@ const scrollEvent = () => {
         else el.classList.remove('shown');
     }
     window.addEventListener('scroll', scrollValue, false);
-    document.removeEventListener('scroll', scrollValue, false);
+    // document.removeEventListener('scroll', scrollValue, false);
 }
 langSelect();
 scrollEvent();
